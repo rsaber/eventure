@@ -1,0 +1,15 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+    <head lang="en">
+        <meta charset="UTF-8"/>
+        <title>Eventure</title>
+        <link rel="stylesheet" href="/main.css" />
+        <link href="https://fonts.googleapis.com/css?family=Karla" rel="stylesheet" />
+    </head>
+    <body>
+        <p id="user" th:text="${current_user}" hidden="true" />
+        <div id="react"></div>
+        <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCZ_v5d_2_i5vJ_MJTnAlVZGYEgiGlWkZQ&amp;libraries=places"></script>
+        <script src="/built/index.js"></script>
+    </body>
+</html>
